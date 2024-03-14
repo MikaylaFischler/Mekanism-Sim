@@ -43,6 +43,7 @@
 		</Item>
 		<Item Name="Fuel Refinement Fast.vi" Type="VI" URL="../Fuel Refinement Fast.vi"/>
 		<Item Name="Fuel Refinement.vi" Type="VI" URL="../Fuel Refinement.vi"/>
+		<Item Name="Reactor Build Properties.ctl" Type="VI" URL="../Reactor Build Properties.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
