@@ -16,8 +16,8 @@
 		<Item Name="Models" Type="Folder">
 			<Item Name="Fission Reactor.vi" Type="VI" URL="../Fission Reactor.vi"/>
 			<Item Name="Induction Matrix Model.vi" Type="VI" URL="../Induction Matrix Model.vi"/>
+			<Item Name="Industrial Turbine Model.vi" Type="VI" URL="../Industrial Turbine Model.vi"/>
 			<Item Name="Sodium Boiler Model.vi" Type="VI" URL="../Sodium Boiler Model.vi"/>
-			<Item Name="Steam Turbine Model.vi" Type="VI" URL="../Steam Turbine Model.vi"/>
 		</Item>
 		<Item Name="Optimizers" Type="Folder">
 			<Item Name="Induction Matrix Solver.vi" Type="VI" URL="../Induction Matrix Solver.vi"/>
