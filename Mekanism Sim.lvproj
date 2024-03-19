@@ -28,6 +28,7 @@
 		<Item Name="Utilities" Type="Folder" URL="../Utilities">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="EnergyContainer.vi" Type="VI" URL="../Simulator/EnergyContainer.vi"/>
 		<Item Name="Reactor Build Properties.ctl" Type="VI" URL="../Reactor Build Properties.ctl"/>
 		<Item Name="Turbine Build Properties.ctl" Type="VI" URL="../Turbine Build Properties.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
