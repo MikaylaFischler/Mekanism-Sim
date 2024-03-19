@@ -10,17 +10,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Machines" Type="Folder">
-			<Item Name="Block Crafter.vi" Type="VI" URL="../Block Crafter.vi"/>
-			<Item Name="Chemical Dissolution Chamber.vi" Type="VI" URL="../Chemical Dissolution Chamber.vi"/>
-			<Item Name="Chemical Infuser.vi" Type="VI" URL="../Chemical Infuser.vi"/>
-			<Item Name="Chemical Oxidizer.vi" Type="VI" URL="../Chemical Oxidizer.vi"/>
-			<Item Name="Electrolytic Separater.vi" Type="VI" URL="../Electrolytic Separater.vi"/>
-			<Item Name="Enriching Factory.vi" Type="VI" URL="../Enriching Factory.vi"/>
-			<Item Name="Enrichment Chamber.vi" Type="VI" URL="../Enrichment Chamber.vi"/>
-			<Item Name="Isotopic Centrifuge.vi" Type="VI" URL="../Isotopic Centrifuge.vi"/>
-			<Item Name="Pressurized Reaction Chamber.vi" Type="VI" URL="../Pressurized Reaction Chamber.vi"/>
-			<Item Name="Rotary Condensentrator.vi" Type="VI" URL="../Rotary Condensentrator.vi"/>
+		<Item Name="Machines" Type="Folder" URL="../Machines">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Models" Type="Folder">
 			<Item Name="Fission Reactor.vi" Type="VI" URL="../Fission Reactor.vi"/>
@@ -45,6 +36,7 @@
 		<Item Name="Fuel Refinement.vi" Type="VI" URL="../Fuel Refinement.vi"/>
 		<Item Name="Joules to FE.vim" Type="VI" URL="../Joules to FE.vim"/>
 		<Item Name="Reactor Build Properties.ctl" Type="VI" URL="../Reactor Build Properties.ctl"/>
+		<Item Name="Turbine Build Properties.ctl" Type="VI" URL="../Turbine Build Properties.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
