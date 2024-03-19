@@ -10,31 +10,24 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Fuel Processing" Type="Folder" URL="../Fuel Processing">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Machines" Type="Folder" URL="../Machines">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Models" Type="Folder">
-			<Item Name="Fission Reactor.vi" Type="VI" URL="../Fission Reactor.vi"/>
-			<Item Name="Induction Matrix Model.vi" Type="VI" URL="../Induction Matrix Model.vi"/>
-			<Item Name="Industrial Turbine Model.vi" Type="VI" URL="../Industrial Turbine Model.vi"/>
-			<Item Name="Sodium Boiler Model.vi" Type="VI" URL="../Sodium Boiler Model.vi"/>
-		</Item>
-		<Item Name="Optimizers" Type="Folder">
-			<Item Name="Induction Matrix Solver.vi" Type="VI" URL="../Induction Matrix Solver.vi"/>
-			<Item Name="Turbine Optimizer.vi" Type="VI" URL="../Turbine Optimizer.vi"/>
+		<Item Name="Models" Type="Folder" URL="../Models">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Simulator" Type="Folder" URL="../Simulator">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Utilities" Type="Folder">
-			<Item Name="FE to Joules.vi" Type="VI" URL="../FE to Joules.vi"/>
-			<Item Name="Joules to FE.vi" Type="VI" URL="../Joules to FE.vi"/>
-			<Item Name="Structure Properties.vi" Type="VI" URL="../Structure Properties.vi"/>
-			<Item Name="Turbine Flow.vi" Type="VI" URL="../Turbine Flow.vi"/>
+		<Item Name="Solvers" Type="Folder" URL="../Solvers">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Fuel Refinement Fast.vi" Type="VI" URL="../Fuel Refinement Fast.vi"/>
-		<Item Name="Fuel Refinement.vi" Type="VI" URL="../Fuel Refinement.vi"/>
-		<Item Name="Joules to FE.vim" Type="VI" URL="../Joules to FE.vim"/>
+		<Item Name="Utilities" Type="Folder" URL="../Utilities">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Reactor Build Properties.ctl" Type="VI" URL="../Reactor Build Properties.ctl"/>
 		<Item Name="Turbine Build Properties.ctl" Type="VI" URL="../Turbine Build Properties.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
