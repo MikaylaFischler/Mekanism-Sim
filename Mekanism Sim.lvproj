@@ -28,10 +28,12 @@
 		<Item Name="Utilities" Type="Folder" URL="../Utilities">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Boiler Build Properties.ctl" Type="VI" URL="../Boiler Build Properties.ctl"/>
 		<Item Name="Fission Reactor Build Properties.ctl" Type="VI" URL="../Fission Reactor Build Properties.ctl"/>
 		<Item Name="Fission Reactor Build Specifications.ctl" Type="VI" URL="../Fission Reactor Build Specifications.ctl"/>
 		<Item Name="Induction Matrix Build Properties.ctl" Type="VI" URL="../Induction Matrix Build Properties.ctl"/>
 		<Item Name="Induction Matrix Build Specifications.ctl" Type="VI" URL="../Induction Matrix Build Specifications.ctl"/>
+		<Item Name="Tier.ctl" Type="VI" URL="../Tier.ctl"/>
 		<Item Name="Turbine Build Properties.ctl" Type="VI" URL="../Turbine Build Properties.ctl"/>
 		<Item Name="Turbine Build Specifications.ctl" Type="VI" URL="../Turbine Build Specifications.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
