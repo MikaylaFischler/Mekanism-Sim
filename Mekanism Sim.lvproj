@@ -29,6 +29,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Boiler Build Properties.ctl" Type="VI" URL="../Boiler Build Properties.ctl"/>
+		<Item Name="Boiler Build Specifications.ctl" Type="VI" URL="../Boiler Build Specifications.ctl"/>
 		<Item Name="Fission Reactor Build Properties.ctl" Type="VI" URL="../Fission Reactor Build Properties.ctl"/>
 		<Item Name="Fission Reactor Build Specifications.ctl" Type="VI" URL="../Fission Reactor Build Specifications.ctl"/>
 		<Item Name="Induction Matrix Build Properties.ctl" Type="VI" URL="../Induction Matrix Build Properties.ctl"/>
